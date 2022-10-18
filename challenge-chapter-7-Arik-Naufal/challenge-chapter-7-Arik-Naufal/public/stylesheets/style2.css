@@ -1,0 +1,93 @@
+body{
+background-color:#9C835F;
+width: 1440px;
+height: 1024px;
+
+}
+.navbar-brand{
+    text-align: left;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+#player, #com{
+    margin-top: 162px;    
+    display: inline-flex; 
+}
+#player{
+    padding-left: 296px;
+    font-weight: bold;
+
+}
+#com{
+    padding-left: 700px;
+    font-weight: bold;
+    
+}
+.container{
+    width: 90%;
+    margin-left: 250px;
+    list-style: square;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'rockleft rockmiddle rockright'
+    'paperleft papermiddle paperright'
+    'scissorsleft scissorsmiddle scissorsright'
+    'footerleft footermiddle footerright';
+}
+ul {
+    list-style: none;
+}
+
+.rock {
+    width: 128px;
+    height: 92px;
+    grid-area: rockleft;
+    margin-top: 50px;
+}
+.batu{
+    width: 128px;
+    height: 92px;
+    grid-area: rockright;
+    margin-top: 50px;
+    background: none;
+}
+.paper{
+    width: 115px;
+    height: 150px;
+    grid-area: paperleft;
+    margin-top: 50px;
+}
+.kertas{
+    width: 115px;
+    height: 150px;
+    grid-area: paperright;
+    margin-top: 50px;
+    background: none;
+}
+   
+.scissors{
+     width: 134;
+     height: 160px;
+     margin-top: 50px;
+}
+.gunting{
+    width: 134;
+     height: 160px;
+     margin-top: 50px;
+     background: none;
+}
+.versus {
+    margin-top: 50%;
+}
+.refresh{
+    width: 97px;
+    height: 91px;
+    grid-area: footermiddle;
+    padding-left: 60px;
+}
+.rock:hover, .paper:hover, .scissors:hover, :active {
+    background-color:#C4C4C4;
+}

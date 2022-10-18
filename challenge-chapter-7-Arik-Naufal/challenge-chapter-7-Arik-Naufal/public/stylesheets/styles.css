@@ -1,0 +1,73 @@
+body {
+    min-height: 5000px;
+}
+.kanan {color: white;
+    background-color: #00000080;
+    ;
+}
+.kiri {color: white;
+       background-color:#00000080;
+}
+.banner{ height: 110vh;
+        background: url(../assets/main-bg.jpg);
+        background-size: cover;
+        background-position: center;
+}
+.banner-content{ height: 100%;
+                color: white;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+}
+.contain-carousel { height: 900px;
+    background: url(../assets/the-games-bg.jpg);
+                    
+}
+.container-carousel { color: white;
+                    
+}
+.special {padding-top: 13rem;
+}
+.traditional{ color:#FFB548;
+    
+
+}
+#requirements { height: 900px;
+                background: url(../assets/requirements.png);
+                background-position: center;
+                background-size: cover;
+                color: white;
+}
+.require{ padding-top: 8rem;
+
+}
+.score{ background: url(../assets/top-score-bg.png);
+            height: 800px;
+            width: 1600px;
+            background-position: center;
+            color: black;
+
+}
+.newsletter{ background: url(../assets/main-bg.jpg);
+             height: 1000px;
+             color: white;
+
+}
+.bagian1{ padding-top: 15rem;
+}
+.footers{ background-color: black;
+          height: 50px;
+          color: white;
+          }
+
+.kartu{ background-color:#FFFFFF14;
+}
+.nama { color:#FFB548;
+    }
+.pekerjaan { color: #FFFFFF;
+}
+.komentar { color: #FFFFFF
+}
+.skor { padding-top: 10rem;
+
+}
